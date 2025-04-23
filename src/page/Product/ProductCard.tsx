@@ -15,7 +15,7 @@ const ProductCard = ({ product }: { product: ProductType }) => {
     <>
       <div
         onClick={() => setShowModal(true)}
-        className="relative group border p-4 rounded-md shadow-sm w-full md:min-w-72 md:max-w-72 cursor-pointer hover:shadow-lg transition"
+        className="relative group border p-4 rounded-md shadow-sm w-full lg:min-w-72 lg:max-w-72 cursor-pointer hover:shadow-lg transition"
       >
         <img
           src={product.image}
@@ -41,7 +41,9 @@ const ProductCard = ({ product }: { product: ProductType }) => {
               className="w-full h-64 object-cover rounded mb-4"
             />
             <h2 className="text-xl font-bold mb-2">{product.name}</h2>
-            <p className="text-yellow-600 font-bold text-lg mb-2">${product.price}</p>
+            <p className="text-yellow-600 font-bold text-lg mb-2">
+              ${product.price}
+            </p>
             <p className="text-gray-700">
               {product.description || "No description provided."}
             </p>
