@@ -5,10 +5,10 @@ type props = {
 function WeeknesSection() {
   return (
     <section className="min-h-screen h-[120vh] flex flex-col justify-center px-8 py-16 bg-gray-50">
-      <h2 className="text-xl font-bold text-center text-orange-500 mb-2">
+      <h2 className="text-xl font-bold text-center text-amber-300 mb-2">
         Our Craft
       </h2>
-      <h3 className="text-4xl font-bold text-center text-orange-500 mb-12">
+      <h3 className="text-4xl font-bold text-center text-amber-300 mb-12">
         WHAT MAKES OGANDIDGERIDOO SPECIAL?
       </h3>
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12">
@@ -45,7 +45,7 @@ const SkillBar = ({ label, value }: props) => (
     </div>
     <div className="w-full bg-gray-300 rounded-full h-2">
       <div
-        className="bg-orange-500 h-2 rounded-full"
+        className="bg-amber-300 h-2 rounded-full"
         style={{ width: `${value}%` }}
       ></div>
     </div>
@@ -54,7 +54,7 @@ const SkillBar = ({ label, value }: props) => (
 
 const StatBox = ({ value, label }: props) => (
   <div>
-    <div className="text-3xl font-bold text-orange-500 mb-2">{value}</div>
+    <div className="text-3xl font-bold text-amber-300 mb-2">{value}</div>
     <div className="text-sm text-gray-700">{label}</div>
   </div>
 );

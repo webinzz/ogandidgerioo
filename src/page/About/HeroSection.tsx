@@ -5,7 +5,7 @@ function HeroSection() {
       style={{ backgroundImage: `url()` }}
     >
       <p className="text-xl text-gray-700">About Us</p>
-      <h1 className="lg:text-5xl text-3xl font-bold mb-4 text-orange-500">
+      <h1 className="lg:text-5xl text-3xl font-bold mb-4 text-amber-300">
         WHO WE ARE?
       </h1>
       <p className="max-w-3xl text-gray-700 leading-relaxed text-lg">

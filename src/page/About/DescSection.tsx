@@ -7,7 +7,7 @@ function DescSection() {
         className="rounded shadow-lg p-2 bg-orange-100 lg:h-96 w-[550px] border-amber-300 border-2 border-dashed  "
       />
       <div className="lg:w-1/2">
-        <h2 className="text-4xl font-bold mb-4 text-orange-500">
+        <h2 className="text-4xl font-bold mb-4 text-amber-300">
           We Always Share The Ancient Vibes
         </h2>
         <p className="text-gray-700 mb-6">
@@ -15,7 +15,7 @@ function DescSection() {
           audiences. Handcrafted and soulfully played, each didgeridoo tells a
           story that transcends time.
         </p>
-        <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-orange-600">
+        <button className="bg-amber-300 text-white px-6 py-2 rounded-full font-semibold hover:bg-orange-600">
           Contact Us
         </button>
       </div>
