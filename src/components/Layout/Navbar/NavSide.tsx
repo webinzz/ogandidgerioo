@@ -13,7 +13,7 @@ const NavSide = ({
       <div
         className={`fixed bg-black/50 duration-1000 transition-all ${
           navFull ? "opacity-0 hidden" : "opacity-100 block"
-        } w-screen h-screen dark:bg-slate-700 right-0 top-0 justify-center items-center z-40`}
+        } w-screen h-screen  right-0 top-0 justify-center items-center z-40`}
       >
         .
       </div>
@@ -24,7 +24,7 @@ const NavSide = ({
             : " left-0 pointer-events-auto"
         }`}
       >
-        <ul className="flex flex-col gap-4  text-slate-600 dark:text-slate-100">
+        <ul className="flex flex-col gap-4 text-slate-700">
           <NavLogo />
           <Link onClick={NavToggle} to="/" className="mt-6 font-medium">
             Home

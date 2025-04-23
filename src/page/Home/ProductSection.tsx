@@ -6,7 +6,7 @@ const Product = () => {
     <section className="min-h-[120vh] relative w-screen flex flex-col items-center justify-center  text-gray-800 py-20">
       {/* Lingkaran dekoratif - beda dari feature section */}
       <div className="absolute w-[500px] h-[500px] bg-gradient-to-bl from-blue-300 to-purple-300 rounded-full top-0 left-0 -translate-x-2/3  opacity-30 "></div>
-      <div className="absolute w-[500px] h-[500px] bg-gradient-to-r from-green-300 to-blue-400 rounded-full bottom-0 right-0 translate-x-2/3  opacity-50 "></div>
+      {/* <div className="absolute w-[500px] h-[500px] bg-gradient-to-r from-green-300 to-blue-400 rounded-full bottom-0 right-0 translate-x-2/3  opacity-50 "></div> */}
 
       <div className="text-center mb-12">
         <p className="text-sm tracking-widest text-red-500 font-semibold uppercase mb-2">
